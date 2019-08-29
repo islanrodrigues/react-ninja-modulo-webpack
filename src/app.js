@@ -11,4 +11,4 @@ var Title = createReactClass({
 });
 
 
-module.exports = Title;
+export default Title;
