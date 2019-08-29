@@ -2,5 +2,10 @@
   "devDependencies": {
     "webpack": "^1.15.0",
     "webpack-dev-server": "^1.16.5"
+  },
+  "dependencies": {
+    "create-react-class": "^15.6.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
   }
 }

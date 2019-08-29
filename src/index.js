@@ -1,5 +1,12 @@
 'use strict'
 
-var sum = require('./app');
+var React = require('react');
+var ReactDOM = require('react-dom');
 
-console.log("A soma é " + sum(2, 3));
+var Title = require('./app');
+
+
+ReactDOM.render(
+    React.createElement(Title),
+    document.querySelector('[data-js="app"]')
+);
